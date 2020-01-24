@@ -1,0 +1,57 @@
+
+@CHARSET "UTF-8";
+
+.contentClassFrame
+{
+	
+	margin-top:40px;
+}
+.cjDetailImageFrame
+{
+	height:250px;
+	width:auto;
+
+}
+/*
+*商品属描述间距 商品名称 价格 等等
+*/
+.cjDetailBuytopMargin
+{
+	margin-top:40px;
+	
+}
+
+/*
+*控制图片大小
+*/
+.img-polaroid
+{
+	height:250px;
+	width:200px;
+	
+}
+
+/*
+*控制图片显示位置 靠右边显示
+*/
+.cjimageContentPosition
+{
+	text-align:left;
+	
+}
+
+/*
+*图片和商品信息 的顶部间距
+*/
+.contentPosition
+{
+	margin-top:40px;
+}
+/*
+*提交按钮靠右显示
+*/
+.submitButtonPosition
+{
+	text-align:left;
+	margin-top:100px;
+}

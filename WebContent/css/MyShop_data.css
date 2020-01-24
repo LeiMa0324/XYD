@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
+ { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+#searchBox
+{
+	width:250px;
+}
+
+#MyShop
+{
+	font-size:18px;
+}
+
+.nav-list >li
+{
+	line-height:20px;
+	margin-top:20px;
+	font-size:18px;
+	margin-left:10px;
+
+}
+#MyOrder_text
+{
+	font-size:18px;
+	font-weight:700;
+}
+#upper
+{
+	border:2px solid gray;
+}
+
+#MyOrder
+{
+	    border-bottom: 2px solid #f4f4f4;
+	    margin-bottom:20px;
+}
+#tableheader
+{
+	background-color:#e0e0e0;
+}
+#searchbox_img
+{
+	float:right;
+	width:186px;
+	height:55px;
+}
+
+.btn-ordercheck
+{
+	border-radius:0px;
+	width:78px;
+}
+
+.table th,.table td
+{
+	text-align:center;
+}
+
+
+.nav-list > li > a 
+{
+	display:inline;
+} 
+.badge
+{
+	background-color:#cc3333;
+}
+.myactive
+{
+	color:#0089dc;
+}
+
+

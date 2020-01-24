@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
+ { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+#searchBox
+{
+	width:250px;
+}
+
+#MyShop
+{
+	font-size:18px;
+}
+
+.nav-list >li
+{
+	margin-top:20px;
+	font-size:18px;
+	margin-left:10px;
+
+}
+#MyOrder_text
+{
+	font-size:18px;
+	font-weight:700;
+}
+#upper
+{
+	border:2px solid gray;
+}
+
+#MyOrder
+{
+	    border-bottom: 2px solid #f4f4f4;
+	    margin-bottom:20px;
+}
+#tableheader
+{
+	background-color:#e0e0e0;
+}
+#searchbox_img
+{
+	float:right;
+	width:186px;
+	height:55px;
+}
+
+.btn-ordercheck
+{
+	border-radius:0px;
+	width:78px;
+}
+
+ul
+{
+	    -webkit-margin-before: 2em;
+	    -webkit-margin-after: 2em;
+}
+
+#customer_info_list >li
+{
+
+	list-style-type:none;
+
+	text-align:left; 
+	margin-bottom:5px;
+}
+
+#customer_logo_img
+{
+	border-radius:170px;
+	overflow:hidden;
+	width:250px;
+	height:250px;
+}
+
+#back
+{
+	width:40px;
+	height:40px;
+}
+.ng-binding
+{
+	color:gray;
+}
+
+#customer_info
+{
+	border-bottom:1px solid #B2B49E;
+	padding-bottom:10px;
+}
+

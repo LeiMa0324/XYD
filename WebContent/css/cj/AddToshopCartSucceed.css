@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.cjAddToShopFinshBox
+{
+	
+	height:100px;
+	border:1px solid gray;
+	 text-align:center;
+	 line-height:100px;
+ 
+}
+
+.cjAddToShopButton
+{
+	 margin-top:40px;
+}
+.cjRightButton
+{
+	text-align:center;
+
+}

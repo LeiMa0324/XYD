@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+.cjsubmitButton
+{
+	margin-top:40px;
+	float:right;
+}
+.cjcontentInput
+{
+	 resize:none;
+	height:100px;
+	width:450px;
+	
+}
+
+.cjimageControllerCSS
+{
+	height:200px;
+	width:180px;
+	margin-top:40px;
+}
+
+.cjcontentPostion
+{
+	
+	margin-top:40px;
+	margin-left:40px;
+	width: 400px;
+}
+
+.cjrow2upLoadButton
+{
+	margin-top:40px;
+}
+
+a{text-decoration:none;}
+
+.btn_addPic
+{
+display: inline-block;
+position: relative;
+height: 39px;
+overflow: hidden;
+padding: 0 30px;
+border: 2px solid gray;
+background: none repeat scroll 0 0 #ff3030;
+color: white;
+font: 14px/39px 'MicroSoft Yahei','Simhei';
+cursor: pointer;
+text-align: center;
+
+margin-top:30px;
+margin-left:50px;
+
+}
+
+.img-polaroid
+{
+	 height:250px;
+	  width:250px;
+	
+}
+
+.btn_addPic em
+ {
+background:url(add.png) 0 0;
+display: inline-block;
+width: 18px;
+height: 18px;
+overflow: hidden;
+margin: 10px 5px 10px 0;
+line-height: 20em;
+vertical-align: middle;
+}
+.btn_addPic:hover em
+{
+background-position:-19px 0;}
+.filePrew {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 140px;
+height: 39px;
+cursor: pointer;
+opacity: 0;
+filter:alpha(opacity: 0);
+}
+.cjtextaligncenter
+{
+	text-align:center;
+}

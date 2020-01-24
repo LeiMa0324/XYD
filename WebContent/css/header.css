@@ -1,0 +1,29 @@
+ @CHARSET "UTF-8";
+#header_nav1>ul
+{
+	font-size:18px;
+
+
+}
+
+#header_nav1>ul >li
+{
+		line-height:60px;
+
+}
+#header_nav1 strong
+{
+		margin-top: 28px;
+		color:#d2e7f9;
+
+}
+ #header_nav1>ul >li>a
+{
+	color:#d2e7f9;
+
+} 
+
+#sunshine_img
+{
+	padding:20px;
+}

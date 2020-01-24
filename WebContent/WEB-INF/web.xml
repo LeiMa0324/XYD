@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>XYD</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<error-page>
+		<exception-type>javax.servlet.ServletException</exception-type>
+		<location>/error.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>com.seu.xyd.servlet.DAMSSessionTimeout</exception-type>
+		<location>/timeout_error.jsp</location>
+	</error-page>
+	
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.seu.xyd.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>com.seu.xyd.servlet.OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/OrderServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ShopServlet</servlet-name>
+		<servlet-class>com.seu.xyd.servlet.ShopServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShopServlet</servlet-name>
+		<url-pattern>/ShopServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PicDownloadServlet</servlet-name>
+		<servlet-class>com.seu.xyd.servlet.PicDownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PicDownloadServlet</servlet-name>
+		<url-pattern>/PicDownloadServlet</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+    <servlet-name>uploadfile</servlet-name>
+    <servlet-class>com.seu.xyd.servlet.upLoadImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadfile</servlet-name>
+    <url-pattern>/uploadfile</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>shopservlet</servlet-name>
+    <servlet-class>com.seu.xyd.servlet.ShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>shopservlet</servlet-name>
+    <url-pattern>/shopservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

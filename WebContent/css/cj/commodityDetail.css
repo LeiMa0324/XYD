@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+.content.image
+{
+	
+	margin-top: 40px;
+	margin-left: 140px;
+}
+.content
+{
+	margin-top:100px;
+	width:100%;
+	height:auto;
+}
+
+.div1
+{
+margin-top: 20px;
+margin-left:140px;
+height: 41px;
+background: skyblue;
+width: 144px;
+
+}
+.div2{
+text-align:center;
+padding-top:12px;
+font-size:15px;
+font-weight:800
+}
+
+.inputstyle{
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 30px;
+    background:#000000;
+    outline: medium none;
+    position: relative;
+
+    left:0px;
+    top: -35px;
+}
+
+.cjSubmitbutton
+{
+	margin-top:200px;
+	margin-left:250px;
+}
+.cjtextaligncenter
+{
+	text-align:center;
+}
+.cjrow1FirstImage
+{
+	margin-top:80px;
+}
+
+.cjrow2upLoadButton
+{
+	margin-top:40px;
+}
+
+a{text-decoration:none;}
+
+.btn_addPic
+{
+display: inline-block;
+position: relative;
+height: 39px;
+overflow: hidden;
+padding: 0 30px;
+border: 2px solid gray;
+background: none repeat scroll 0 0 #ff3030;
+color: white;
+font: 14px/39px 'MicroSoft Yahei','Simhei';
+cursor: pointer;
+text-align: center;
+}
+
+.img-polaroid
+{
+	 height:250px;
+	  width:250px;
+	
+}
+
+.btn_addPic em
+ {
+background:url(add.png) 0 0;
+display: inline-block;
+width: 18px;
+height: 18px;
+overflow: hidden;
+margin: 10px 5px 10px 0;
+line-height: 20em;
+vertical-align: middle;
+}
+.btn_addPic:hover em
+{
+background-position:-19px 0;}
+.filePrew {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 140px;
+height: 39px;
+cursor: pointer;
+opacity: 0;
+filter:alpha(opacity: 0);
+}

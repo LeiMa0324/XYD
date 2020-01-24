@@ -1,0 +1,6 @@
+
+.dowebok ul { list-style-type: none;}
+.dowebok li { display: inline-block;}
+.dowebok li { margin: 10px 0; width:200px}
+.dowebok input.labelauty + label { font: 12px "Microsoft Yahei";}
+.dowebok label { width:181px; height:120px; margin:0px 20px;}

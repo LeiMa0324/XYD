@@ -1,0 +1,53 @@
+#footer{ background:url(../images/footer_bg.jpg) repeat-x; height:261px; width:100%;}
+#footer .f_top{ width:1001px; margin:0 auto; padding-top:33px; height:150px;}
+#footer .f_top ul{ width:15%; padding:0 16px; float:left;}
+#footer .f_top ul h1{ background:url(../images/line02.gif) no-repeat bottom; height:28px; line-height:28px; margin-bottom:5px; padding-left:7px; text-align:center;}
+#footer .f_top ul h1 span{ color:#1a8fb4; font-weight:bold; font-family:"微软雅黑"; background:url(../images/fw_icon.jpg) no-repeat left top;  height:28px; display:block;}
+#footer .f_top ul li{ height:24px; line-height:24px; margin-left:13px;}
+#footer .f_top ul li a{ color:#444; background:url(../images/icon.gif) no-repeat left center; display:block;}
+#footer .f_top ul li a:hover{ color:#222;}
+
+#footer .f_top ul .shuoming1 span{  background:url(../images/fw_icon.jpg) no-repeat left top; }
+#footer .f_top ul .shuoming2 span{  background:url(../images/shuoming_icon.jpg) no-repeat left top; }
+#footer .f_top ul .shuoming3 span{  background:url(../images/zhufu_icon.jpg) no-repeat left top; }
+#footer .f_top ul .shuoming4 span{  background:url(../images/pwisong_icon.jpg) no-repeat left top; }
+#footer .f_top ul .shuoming5 span{  background:url(../images/xihou_icon.jpg) no-repeat left top;}
+.f_top-ul >li
+{
+	list-style-type:none;
+	text-align:center;
+}
+
+.lefta ul li{ height:24px; line-height:24px; margin-left:13px;}
+.lefta ul li a{ color:#444; background:url(../images/icon.gif) no-repeat left center; display:block;}
+.lefta ul li a:hover{ color:#222;}
+.shuoming1 span{ font-size:12px; font-weight:bold;}
+.shuoming2 span{ font-size:12px; font-weight:bold;}
+.shuoming3 span{ font-size:12px; font-weight:bold;}
+.shuoming4 span{ font-size:12px; font-weight:bold;}
+.shuoming5 span{ font-size:12px; font-weight:bold;}
+
+
+#footer .copyright{
+	text-align:center;
+	font-size:12px;
+	}
+	
+	
+ #footer_container
+{
+	margin-top:100px;
+} 
+
+.copyright {
+	margin: 1em 0;
+	line-height: 22px;
+}
+
+.copyright img {
+	vertical-align: top;
+}
+
+#foot h3 {
+	color: #555;
+}
